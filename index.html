@@ -1,17 +1,46 @@
 <!-- Design a blog post page with responsive typography and images. -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Blog Post</title>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
- </head>
-    <header class="header">
-        <div class="container">
-            <h1 class="blog-title">Dev-Blog - A Blog Template made for Developers!</h1>
-            <p class="blog-description">Welcome to my blog Subscribe and get my latest blog post in your inbox.</p>
+    <title>Blog Post</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-100">
+    <header class="bg-blue-700 text-white py-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">The Dream House</h1>
+            <p class="text-lg mt-2">Exploring Beautiful Homes around the World!</p>
         </div>
     </header>
- </body>
- </html>
+    
+    <div class="container mx-auto my-12 px-6 md:px-0">
+        <article class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img class="w-full h-64 object-screen" src="house.avif" alt="Beautiful House">
+
+            <div class="p-6">
+                <h2 class="text-3xl font-semibold mb-2">A Modern House with Stunning Architecture</h2>
+                <p class="text-gray-500 text-sm mb-4">By John Smith | October 6, 2024</p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    This modern house is designed with simplicity and elegance in mind. From its open floor plan to the vast use of glass, every element aims to bring the outside in while offering a comfortable living experience.
+                </p>
+                <blockquote class="bg-gray-100 border-l-4 border-gray-800 italic text-gray-600 px-6 py-3 mb-6">
+                    "A house is made of bricks and beams. A home is made of hopes and dreams."
+                </blockquote>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    The house incorporates a mix of sustainable materials such as reclaimed wood, natural stone, and energy-efficient windows. The large windows allow for ample natural light and spectacular views of the surrounding landscape. In addition to the indoor features, the house includes a beautiful outdoor area with a pool and garden space...
+                </p>
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>© 2024 The Dream House Blog | All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
